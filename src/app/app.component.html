@@ -3,10 +3,12 @@
 <img src="../assets/hot.jpg" alt="thermometer-hot-red" *ngIf="10 > 11">
 <img src="../assets/cold.jpg" alt="thermometer-cold-blue" *ngIf="10 <= 11">
 
-<div class="weather-data"></div>
-    <div class="location">Perryville</div>
+<div class="weather-data">
+    <div class="location">St. Louis</div>
     <!-- display temp, use pipe to only display whole number -->
-    <div class="temperature">{{ 14.40 | number: '1.0-0' }}</div>
+    <div class="temperature">{{ 14.40 | number: '1.0-0' }}
+
+    </div>
   </div>
 
 
