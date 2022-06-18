@@ -23,7 +23,7 @@
           <span>min</span>
         </div>
         <div class="info-block-value">
-          {{weatherData.main.temp_min}}°F
+          {{weatherData.main.temp_min | number: '1.0-0' }}°F
         </div>
       </div>
 
@@ -33,7 +33,7 @@
           <span>max</span>
         </div>
         <div class="info-block-value">
-          {{weatherData.main.temp_max}}°F
+          {{weatherData.main.temp_max | number: '1.0-0' }}°F
         </div>
       </div>
 
@@ -53,7 +53,7 @@
           <span>wind</span>
         </div>
         <div class="info-block-value">
-          {{weatherData.wind.speed}} mph
+          {{weatherData.wind.speed | number: '1.0-0' }} mph
         </div>
       </div>
 
