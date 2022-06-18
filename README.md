@@ -1,5 +1,7 @@
 # WeatherApp
 
+A full-stack weather app built in Angular. This project displays weather information obtained via the Open Weather Map API.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
 ## Development server
