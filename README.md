@@ -5,6 +5,6 @@ A full-stack weather app built in Angular. This project displays weather informa
 
 TODO: 
 
-update background images.
+Update background images.
 
 Add error message/page if api call does not work.
