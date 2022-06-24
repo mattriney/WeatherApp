@@ -8,4 +8,4 @@ Update background images.
 
 Add error message/page if api call does not work(API seems to be somewhat unreliable.)
 
-Make (more)responsive. Larger screen sizes aren't filled.
+UI improvements(larger screens)
